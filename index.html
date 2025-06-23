@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Digital E-Gram Panchayat</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to right, #00c6ff, #0072ff);
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2.8em;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 1.2em;
+      margin-bottom: 30px;
+    }
+
+    .btn-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .btn {
+      background-color: #ffffff;
+      color: #0072ff;
+      padding: 15px 30px;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1.1em;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      transition: all 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #dceeff;
+      transform: scale(1.05);
+    }
+
+    .footer {
+      position: absolute;
+      bottom: 20px;
+      font-size: 0.9em;
+      opacity: 0.8;
+    }
+
+    @media screen and (max-width: 600px) {
+      h1 {
+        font-size: 2em;
+      }
+      .btn {
+        width: 80%;
+        font-size: 1em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>🌐 Digital E-Gram Panchayat</h1>
+  <p>Empowering rural governance through digital transformation</p>
+
+  <div class="btn-container">
+    <a href="admin-login.html" class="btn">🛡 Admin/Officer</a>
+    <a href="user-auth.html" class="btn">👤 User</a>
+    <a href="staff-login.html" class="btn">👨‍💼 Staff</a>
+  </div>
+
+  <div class="footer">
+    © 2025 Digital E-Gram Panchayat | Designed for Smart Villages
+  </div>
+</body>
+</html>

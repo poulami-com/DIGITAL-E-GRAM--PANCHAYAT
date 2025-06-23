@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head><title>Admin Dashboard</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h2>Welcome Admin</h2>
+
+  <!-- Create Service -->
+  <h3>Create Service</h3>
+  <input id="serviceTitle" placeholder="Service Title" />
+  <input id="serviceDesc" placeholder="Service Description" />
+  <button onclick="createService()">Add Service</button>
+
+  <!-- All Applications -->
+  <h3>Update Application Status</h3>
+  <div id="applicationsList"></div>
+
+  <button onclick="logout()">Logout</button>
+  <script type="module" src="admin-dashboard.js"></script>
+</body>
+</html>

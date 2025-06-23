@@ -1,0 +1,131 @@
+/* Global Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1, h2, h3 {
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+input, button {
+  padding: 12px;
+  margin: 10px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  width: 80%;
+  max-width: 400px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #ffffff;
+  box-shadow: 0 0 8px #ffffff;
+}
+
+button {
+  background-color: #ffffff;
+  color: #0072ff;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 600;
+}
+
+button:hover {
+  background-color: #dceeff;
+  transform: scale(1.05);
+}
+
+/* Container Boxes */
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 25px;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+  color: #2c3e50;
+}
+
+/* Navigation Buttons on Index Page */
+.btn-container {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+.btn {
+  display: inline-block;
+  padding: 15px 30px;
+  font-size: 18px;
+  background-color: #ffffff;
+  color: #0072ff;
+  text-decoration: none;
+  border-radius: 50px;
+  font-weight: 600;
+  transition: 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.btn:hover {
+  background-color: #dceeff;
+  transform: translateY(-2px);
+}
+
+/* Application or Service Listing */
+.service-box, .application-box {
+  background: #ffffff;
+  margin: 15px auto;
+  padding: 20px;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 600px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  color: #2c3e50;
+}
+
+.service-box p, .application-box p {
+  margin: 8px 0;
+  font-size: 16px;
+}
+
+.service-box button, .application-box button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 14px;
+  border-radius: 6px;
+  background-color: #0072ff;
+  color: white;
+  border: none;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.service-box button:hover, .application-box button:hover {
+  background-color: #005ac1;
+}
+
+/* Footer */
+.footer {
+  position: fixed;
+  bottom: 15px;
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+  font-size: 0.9em;
+  opacity: 0.8;
+}
